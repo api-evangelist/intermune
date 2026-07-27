@@ -1,4 +1,16 @@
 aid: intermune
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intermune.png
 name: InterMune
 description: 'InterMune is a company surfaced as a portfolio company of nea and added to the API Evangelist
   network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
@@ -25,3 +37,11 @@ maintainers:
 common:
 - type: Website
   url: https://www.intermune.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Defunct biopharmaceutical company (acquired by Roche in 2014). Domain www.intermune.com
+    now 307-redirects to a GoDaddy for-sale parked page (probed 2026-07-20). No developer
+    portal, docs, or API surface exists to enrich. No artifacts created.'
